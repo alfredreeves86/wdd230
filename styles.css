@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Orelega+One&family=Saira+Condensed:wght@100&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;   
+  }
+  header {
+      display: grid;
+      grid-template-columns: 10% 40% ;
+      grid-template-rows: 20% 20%;
+      padding: 5px;
+      background-color: blue;
+  }
+  picture {
+    grid-column: 1,2;
+    grid-row: 1;
+  }
+  h1 {
+      text-align: center;
+  }
